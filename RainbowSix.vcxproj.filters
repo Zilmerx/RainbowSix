@@ -22,9 +22,6 @@
     <Filter Include="Header Files\Weapons\WeaponDefs">
       <UniqueIdentifier>{7e95a9da-751b-4dbb-a0b7-7135fcd157c8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Operators\Modules">
-      <UniqueIdentifier>{16616f1f-b3fa-4428-ae76-fb2fa3e28e44}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Utility">
       <UniqueIdentifier>{336ed672-e935-48d1-8d35-4cd375c265d4}</UniqueIdentifier>
     </Filter>
@@ -60,6 +57,9 @@
     </Filter>
     <Filter Include="Header Files\Simulation">
       <UniqueIdentifier>{23df25b6-5a7b-438c-9a32-caddcfcb9001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\Random">
+      <UniqueIdentifier>{16616f1f-b3fa-4428-ae76-fb2fa3e28e44}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -117,7 +117,7 @@
       <Filter>Header Files\Utility</Filter>
     </ClInclude>
     <ClInclude Include="Random.h">
-      <Filter>Header Files\Operators\Modules</Filter>
+      <Filter>Header Files\Operators\Random</Filter>
     </ClInclude>
     <ClInclude Include="Empty.h">
       <Filter>Header Files\Weapons\AttachmentDefs</Filter>
