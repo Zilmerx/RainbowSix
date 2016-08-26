@@ -61,6 +61,9 @@
     <Filter Include="Header Files\Operators\Random">
       <UniqueIdentifier>{16616f1f-b3fa-4428-ae76-fb2fa3e28e44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Languages">
+      <UniqueIdentifier>{22cf3724-b5af-41d6-81e5-d28b360a04ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -250,6 +253,18 @@
     </ClInclude>
     <ClInclude Include="BaseAttachment.h">
       <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="French.h">
+      <Filter>Header Files\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="English.h">
+      <Filter>Header Files\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLanguage.h">
+      <Filter>Header Files\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="Language.h">
+      <Filter>Header Files\Languages</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

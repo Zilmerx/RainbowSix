@@ -21,7 +21,7 @@ void CoutAttachmentList(T list)
 template<>
 void CoutAttachmentList<SightsList>(SightsList list)
 {
-	cout << "~Sights" << endl;
+	cout << "~" << Language::GetText("KEY_SIGHTS") << endl;
 
 	for (auto& item : list)
 		cout << "-----" << item->name() << endl;
@@ -30,7 +30,7 @@ void CoutAttachmentList<SightsList>(SightsList list)
 template<>
 void CoutAttachmentList<BarrelList>(BarrelList list)
 {
-	cout << "~Barrel" << endl;
+	cout << "~" << Language::GetText("KEY_BARREL") << endl;
 
 	for (auto& item : list)
 		cout << "-----" << item->name() << endl;
@@ -39,7 +39,7 @@ void CoutAttachmentList<BarrelList>(BarrelList list)
 template<>
 void CoutAttachmentList<GripList>(GripList list)
 {
-	cout << "~Grip" << endl;
+	cout << "~" << Language::GetText("KEY_GRIP") << endl;
 
 	for (auto& item : list)
 		cout << "-----" << item->name() << endl;
@@ -48,7 +48,7 @@ void CoutAttachmentList<GripList>(GripList list)
 template<>
 void CoutAttachmentList<UnderBarrelList>(UnderBarrelList list)
 {
-	cout << "~UnderBarrel" << endl;
+	cout << "~" << Language::GetText("KEY_UNDERBARREL") << endl;
 
 	for (auto& item : list)
 		cout << "-----" << item->name() << endl;

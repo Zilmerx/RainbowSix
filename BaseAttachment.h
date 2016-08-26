@@ -3,6 +3,8 @@
 #include <string>
 #include <iostream>
 
+#include "Language.h"
+
 #include "Ammo.h"
 #include "AmmoCapacity.h"
 #include "Damage.h"

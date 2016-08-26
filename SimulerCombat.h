@@ -29,8 +29,8 @@ public:
 	{
 		damageLog.reserve(50);
 
-		std::cout << op1.m_Name << " utilise un " << op1.GetCurrentWeapon().m_name << std::endl;
-		std::cout << op2.m_Name << " utilise un " << op2.GetCurrentWeapon().m_name << std::endl
+		std::cout << op1.m_Name << Language::GetText("KEY_IS_USING") << op1.GetCurrentWeapon().m_name << std::endl;
+		std::cout << op2.m_Name << Language::GetText("KEY_IS_USING") << op2.GetCurrentWeapon().m_name << std::endl
 			<< std::endl;
 
 		const auto func = [this](Operator& from, Operator& to) { OperatorFightingLoop(from, to); };
@@ -84,20 +84,20 @@ public:
 
 		for (std::pair<Operator&, Damage> pair : damageLog)
 		{
-			std::cout << pair.first.m_Name << " prends " << pair.second.val << " degats !" << std::endl;
+			std::cout << pair.first.m_Name << Language::GetText("KEY_TAKES") << pair.second.val << Language::GetText("KEY_DAMAGE") << "!" << std::endl;
 		}
 
 		HealthState hs = dead.m_Armor.CheckHealth();
 
-		std::cout << dead.m_Name << " a perdu : ";
+		std::cout << dead.m_Name << Language::GetText("KEY_HAS_LOST") << ": ";
 
 		if (hs == HealthState::DBNO)
 		{
-			std::cout << "DNBO";
+			std::cout << Language::GetText("KEY_DNBO");
 		}
 		else
 		{
-			std::cout << "Dead";
+			std::cout << Language::GetText("KEY_DEAD");
 		}
 	}
 

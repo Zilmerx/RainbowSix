@@ -5,6 +5,8 @@
 
 #include "IncludeAllAttachments.h"
 
+#include "Language.h"
+
 class BaseGun
 {
 private:
@@ -123,10 +125,10 @@ public:
 	{
 		os  << obj.name() << endl
 			<< "------------------------" << endl
-			<< "Sights : " << *obj.m_sights << endl
-			<< "Barrel : " << *obj.m_barrel << endl
-			<< "Grip   : " << *obj.m_grip << endl
-			<< "UnderB : " << *obj.m_underbarrel << endl;
+			<< Language::GetText("KEY_SIGHTS") << ": " << *obj.m_sights << endl
+			<< Language::GetText("KEY_BARREL") << ": " << *obj.m_barrel << endl
+			<< Language::GetText("KEY_GRIP") << ": " << *obj.m_grip << endl
+			<< Language::GetText("KEY_UNDERBARREL") << ": " << *obj.m_underbarrel << endl;
 
 		return os;
 	}

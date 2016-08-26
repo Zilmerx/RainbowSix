@@ -1,4 +1,5 @@
 ﻿  Main.cpp
+c:\users\jean-philippe\documents\github\rainbowsix\baselanguage.h(39): warning C4002: too many actual parameters for macro 'assert'
 c:\users\jean-philippe\documents\github\rainbowsix\barrels.h(15): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\jean-philippe\documents\github\rainbowsix\barrels.h(29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\jean-philippe\documents\github\rainbowsix\barrels.h(43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -9,4 +10,5 @@ c:\users\jean-philippe\documents\github\rainbowsix\operatorarmor.h(96): warning 
 c:\users\jean-philippe\documents\github\rainbowsix\operatorarmor.h(100): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\jean-philippe\documents\github\rainbowsix\random.h(90): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
 c:\users\jean-philippe\documents\github\rainbowsix\random.h(46): warning C4715: 'Random::genOperator': not all control paths return a value
+c:\users\jean-philippe\documents\github\rainbowsix\baselanguage.h(41): warning C4715: 'BaseLanguage::GetText': not all control paths return a value
   RainbowSix.vcxproj -> C:\Users\Jean-Philippe\Documents\GitHub\RainbowSix\Debug\RainbowSix.exe

@@ -79,13 +79,13 @@ public:
 	friend std::ostream& operator<<(std::ostream& os, const WeaponContainer& obj)
 	{
 		return os  
-			<< "Damage  : " << obj.m_damage << endl
-			<< "FireRate: " << obj.m_fire_rate << endl
-			<< "Mobility: " << obj.m_mobility << endl
-			<< "Recoil  : " << obj.m_recoil << endl
-			<< "Spread  : " << obj.m_spread << endl
-			<< "Ammo Cap: " << obj.m_ammo_capacity << endl
-			<< "Hipfire : " << obj.m_hipfireAcc << endl;
+			<< Language::GetText("KEY_DAMAGE:") << obj.m_damage << endl
+			<< Language::GetText("KEY_FIRERATE:") << obj.m_fire_rate << endl
+			<< Language::GetText("KEY_MOBILITY:") << obj.m_mobility << endl
+			<< Language::GetText("KEY_RECOIL:") << obj.m_recoil << endl
+			<< Language::GetText("KEY_SPREAD:") << obj.m_spread << endl
+			<< Language::GetText("KEY_AMMOCAP:") << obj.m_ammo_capacity << endl
+			<< Language::GetText("KEY_HIPFIRE:") << obj.m_hipfireAcc << endl;
 	}
 
 };

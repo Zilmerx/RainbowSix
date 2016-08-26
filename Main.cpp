@@ -12,6 +12,8 @@
 
 #include "SimulerCombat.h"
 
+#include "Language.h"
+
 using namespace std;
 
 
@@ -49,11 +51,13 @@ void SimulateCombatOps()
 
 int main()
 {
+	Language::SetLanguage<English>();
+
 	// CoutSortedByDPS();
 
 	// SimulateCombatRandom();
 
-	SimulateCombatOps<Sledge, Kapkan>();
+	// SimulateCombatOps<Twitch, Bandit>();
 
 	cout << endl;
 	system("pause");

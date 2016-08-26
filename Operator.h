@@ -15,6 +15,7 @@
 #include "OperatorArmor.h"
 #include "OperatorSpeed.h"
 
+#include "Language.h"
 
 class Operator
 {
@@ -62,7 +63,7 @@ public:
 
 		system("cls");
 		std::cout << name << std::endl;
-		std::cout << "Choisissez une arme primaire :" << std::endl;
+		std::cout << Language::GetText("KEY_CHOOSE_PRIMARY") << std::endl;
 
 		// Selection de l'arme primaire.
 
@@ -74,7 +75,7 @@ public:
 
 		system("cls");
 		std::cout << name << std::endl;
-		std::cout << "Choisissez une arme secondaire :" << std::endl;
+		std::cout << Language::GetText("KEY_CHOOSE_SECONDARY") << std::endl;
 
 		std::shared_ptr<SecondaryWeapon> secondary = SelectWeapon<OpType, SecondaryWeapon>();
 
@@ -160,14 +161,14 @@ public:
 
 		os << std::endl;
 		
-		os << "ARMOR : ";
+		os << Language::GetText("KEY_ARMOR") << " : ";
 		for (unsigned int i = 0; i < obj.m_Armor.m_ArmorLevel; ++i)
 		{
 			os << "*";
 		}
 		os << std::endl;
 
-		os << "SPEED : ";
+		os << Language::GetText("KEY_SPEED") << " : ";
 		for (unsigned int i = 0; i < obj.m_Speed.m_SpeedLevel; ++i)
 		{
 			os << "*";
@@ -176,13 +177,13 @@ public:
 
 		os << std::endl;
 
-		os << "PRIMARY WEAPON :" << std::endl;
+		os << Language::GetText("KEY_PRIMARY_WEAP") << std::endl;
 		os << "-----------------------------" << std::endl;
 		os << obj.m_PrimaryWeapon << std::endl;
 		os << std::endl;
 
 
-		os << "SECONDARY WEAPON :" << std::endl;
+		os << Language::GetText("KEY_SECONDARY_WEAP") << std::endl;
 		os << "-----------------------------" << std::endl;
 		os << obj.m_SecondaryWeapon << std::endl;
 
