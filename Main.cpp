@@ -28,7 +28,7 @@ void CoutSortedByDPS()
 }
 
 
-void SimulateCombat()
+void SimulateCombatRandom()
 {
 	Operator op1 = Random::genOperator();
 
@@ -51,7 +51,7 @@ int main()
 {
 	// CoutSortedByDPS();
 
-	// SimulateCombat();
+	// SimulateCombatRandom();
 
 	SimulateCombatOps<Sledge, Kapkan>();
 
