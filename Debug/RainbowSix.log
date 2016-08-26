@@ -1,0 +1,12 @@
+﻿  Main.cpp
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\barrels.h(15): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\barrels.h(29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\barrels.h(43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\grips.h(15): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\underbarrels.h(15): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\operatorarmor.h(88): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\operatorarmor.h(96): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\operatorarmor.h(100): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\random.h(90): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\random.h(46): warning C4715: 'Random::genOperator': not all control paths return a value
+  RainbowSix.vcxproj -> C:\Users\Jean-Philippe\Documents\Visual Studio 2015\Projects\RainbowSix\Debug\RainbowSix.exe

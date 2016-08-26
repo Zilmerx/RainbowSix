@@ -1,0 +1,7 @@
+﻿  Main.cpp
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\RandomOperatorGenerator.h(16): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+  Generating code
+c:\users\jean-philippe\documents\visual studio 2015\projects\rainbowsix\rainbowsix\randomoperatorgenerator.h(50): warning C4715: 'Random::genOperator': not all control paths return a value
+  All 2158 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  RainbowSix.vcxproj -> C:\Users\Jean-Philippe\Documents\Visual Studio 2015\Projects\RainbowSix\Release\RainbowSix.exe

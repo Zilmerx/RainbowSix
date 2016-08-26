@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Weapons">
+      <UniqueIdentifier>{3ddccecc-838f-4227-a1f8-3d05cd094d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators">
+      <UniqueIdentifier>{56c3bf2e-5c56-488e-9820-fbfcb7d87948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons\WeaponDefs">
+      <UniqueIdentifier>{7e95a9da-751b-4dbb-a0b7-7135fcd157c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\Modules">
+      <UniqueIdentifier>{16616f1f-b3fa-4428-ae76-fb2fa3e28e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{336ed672-e935-48d1-8d35-4cd375c265d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons\AttachmentDefs">
+      <UniqueIdentifier>{5c229f50-efd2-4a4e-9cab-58808d5e5aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\OperatorDefs">
+      <UniqueIdentifier>{7e04969d-8e02-4f65-a7b8-6ef93b39a7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\OperatorDefs\SAS">
+      <UniqueIdentifier>{7ad160e3-62d9-4d31-bbc0-6043e2033884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\OperatorDefs\FBI">
+      <UniqueIdentifier>{02ac3ec4-df38-4a30-b49e-967af8b4b737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\OperatorDefs\GIGN">
+      <UniqueIdentifier>{575669ff-50a1-4f3d-9c19-600f6b5c6a97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\OperatorDefs\SPETSNAZ">
+      <UniqueIdentifier>{75f0de6d-576f-41d3-a2e0-0cbfa5a7b016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\OperatorDefs\GSG9">
+      <UniqueIdentifier>{c15498b4-17ed-444f-842d-d739b7190586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\OperatorDefs\JTF2">
+      <UniqueIdentifier>{5dcef6a4-b910-4010-9e7c-14efaea901fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Operators\OperatorDefs\NAVY">
+      <UniqueIdentifier>{3068255c-9a37-406f-8da3-f46d75d40ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons\InfoTypes">
+      <UniqueIdentifier>{482937fc-03d6-4a00-b5b5-b71b2c6f9d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation">
+      <UniqueIdentifier>{23df25b6-5a7b-438c-9a32-caddcfcb9001}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TypeDefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Operator.h">
+      <Filter>Header Files\Operators</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWeapon.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="AssaultRifles.h">
+      <Filter>Header Files\Weapons\WeaponDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="SubmachineGuns.h">
+      <Filter>Header Files\Weapons\WeaponDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="Shotguns.h">
+      <Filter>Header Files\Weapons\WeaponDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="MarksmanRifles.h">
+      <Filter>Header Files\Weapons\WeaponDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMachineGuns.h">
+      <Filter>Header Files\Weapons\WeaponDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="Handguns.h">
+      <Filter>Header Files\Weapons\WeaponDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="MachinePistols.h">
+      <Filter>Header Files\Weapons\WeaponDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="Sights.h">
+      <Filter>Header Files\Weapons\AttachmentDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="Grips.h">
+      <Filter>Header Files\Weapons\AttachmentDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrels.h">
+      <Filter>Header Files\Weapons\AttachmentDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="UnderBarrels.h">
+      <Filter>Header Files\Weapons\AttachmentDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="Shields.h">
+      <Filter>Header Files\Weapons\WeaponDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="Incopiable.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Operators\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Empty.h">
+      <Filter>Header Files\Weapons\AttachmentDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeLists.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Sledge.h">
+      <Filter>Header Files\Operators\OperatorDefs\SAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Thatcher.h">
+      <Filter>Header Files\Operators\OperatorDefs\SAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke.h">
+      <Filter>Header Files\Operators\OperatorDefs\SAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Mute.h">
+      <Filter>Header Files\Operators\OperatorDefs\SAS</Filter>
+    </ClInclude>
+    <ClInclude Include="Ash.h">
+      <Filter>Header Files\Operators\OperatorDefs\FBI</Filter>
+    </ClInclude>
+    <ClInclude Include="Thermite.h">
+      <Filter>Header Files\Operators\OperatorDefs\FBI</Filter>
+    </ClInclude>
+    <ClInclude Include="Pulse.h">
+      <Filter>Header Files\Operators\OperatorDefs\FBI</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle.h">
+      <Filter>Header Files\Operators\OperatorDefs\FBI</Filter>
+    </ClInclude>
+    <ClInclude Include="Montagne.h">
+      <Filter>Header Files\Operators\OperatorDefs\GIGN</Filter>
+    </ClInclude>
+    <ClInclude Include="Twitch.h">
+      <Filter>Header Files\Operators\OperatorDefs\GIGN</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>Header Files\Operators\OperatorDefs\GIGN</Filter>
+    </ClInclude>
+    <ClInclude Include="Doc.h">
+      <Filter>Header Files\Operators\OperatorDefs\GIGN</Filter>
+    </ClInclude>
+    <ClInclude Include="Glaz.h">
+      <Filter>Header Files\Operators\OperatorDefs\SPETSNAZ</Filter>
+    </ClInclude>
+    <ClInclude Include="Fuze.h">
+      <Filter>Header Files\Operators\OperatorDefs\SPETSNAZ</Filter>
+    </ClInclude>
+    <ClInclude Include="Kapkan.h">
+      <Filter>Header Files\Operators\OperatorDefs\SPETSNAZ</Filter>
+    </ClInclude>
+    <ClInclude Include="Tachanka.h">
+      <Filter>Header Files\Operators\OperatorDefs\SPETSNAZ</Filter>
+    </ClInclude>
+    <ClInclude Include="Blitz.h">
+      <Filter>Header Files\Operators\OperatorDefs\GSG9</Filter>
+    </ClInclude>
+    <ClInclude Include="IQ.h">
+      <Filter>Header Files\Operators\OperatorDefs\GSG9</Filter>
+    </ClInclude>
+    <ClInclude Include="Bandit.h">
+      <Filter>Header Files\Operators\OperatorDefs\GSG9</Filter>
+    </ClInclude>
+    <ClInclude Include="Jaeger.h">
+      <Filter>Header Files\Operators\OperatorDefs\GSG9</Filter>
+    </ClInclude>
+    <ClInclude Include="Buck.h">
+      <Filter>Header Files\Operators\OperatorDefs\JTF2</Filter>
+    </ClInclude>
+    <ClInclude Include="Frost.h">
+      <Filter>Header Files\Operators\OperatorDefs\JTF2</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackbeard.h">
+      <Filter>Header Files\Operators\OperatorDefs\NAVY</Filter>
+    </ClInclude>
+    <ClInclude Include="Valkyrie.h">
+      <Filter>Header Files\Operators\OperatorDefs\NAVY</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorType.h">
+      <Filter>Header Files\Operators\OperatorDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorArmor.h">
+      <Filter>Header Files\Operators\OperatorDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorSpeed.h">
+      <Filter>Header Files\Operators\OperatorDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeOperatorDefs.h">
+      <Filter>Header Files\Operators\OperatorDefs</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponContainer.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Damage.h">
+      <Filter>Header Files\Weapons\InfoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="FireRate.h">
+      <Filter>Header Files\Weapons\InfoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Mobility.h">
+      <Filter>Header Files\Weapons\InfoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Recoil.h">
+      <Filter>Header Files\Weapons\InfoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Spread.h">
+      <Filter>Header Files\Weapons\InfoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ammo.h">
+      <Filter>Header Files\Weapons\InfoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="AmmoCapacity.h">
+      <Filter>Header Files\Weapons\InfoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="HipFireAcch.h">
+      <Filter>Header Files\Weapons\InfoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponLists.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeAllAttachments.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeAllWeaponDefs.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulerCombat.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAttachment.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
