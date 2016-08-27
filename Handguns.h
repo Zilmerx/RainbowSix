@@ -489,3 +489,52 @@ public:
 	}
 
 };
+
+class Gun_PRB92 : public BaseHandgun
+{
+public:
+	virtual std::string name() const override
+	{
+		return "PRB92";
+	}
+
+	virtual Damage			damage() const override { return 33; }
+	virtual FireRate		fireRate() const override { return 1; }
+	virtual Mobility		mobility() const override { return 50; }
+	virtual AmmoCapacity	ammoCapacity() const override { return 15; }
+
+	virtual SightsList getSightsList() const override
+	{
+		return SightsList
+		{
+			std::make_shared<Att_Empty>(),
+		};
+	}
+
+	virtual BarrelList getBarrelList() const override
+	{
+		return BarrelList
+		{
+			std::make_shared<Att_Empty>(),
+			std::make_unique<Att_Suppressor>()
+		};
+	}
+
+	virtual GripList getGripList() const override
+	{
+		return GripList
+		{
+			std::make_shared<Att_Empty>(),
+		};
+	}
+
+	virtual UnderBarrelList getUnderBarrelList() const override
+	{
+		return UnderBarrelList
+		{
+			std::make_shared<Att_Empty>(),
+			std::make_unique<Att_Laser>()
+		};
+	}
+
+};

@@ -102,7 +102,8 @@ const std::vector<shared_ptr<BaseGun>> WeaponLists::AssaultRifles =
 	make_shared<Gun_F2>(),
 	make_shared<Gun_AK_12>(),
 	make_shared<Gun_C8_SFW>(),
-	make_shared<Gun_Mk17_CQB>()
+	make_shared<Gun_Mk17_CQB>(),
+	make_shared<Gun_PARA_308>()
 };
 
 const std::vector<shared_ptr<BaseGun>> WeaponLists::Handguns =
@@ -116,13 +117,15 @@ const std::vector<shared_ptr<BaseGun>> WeaponLists::Handguns =
 	make_shared<Gun_PMM>(),
 	make_shared<Gun_GSH_18>(),
 	make_shared<Gun_Mk1_9mm>(),
-	make_shared<Gun_D_50>()
+	make_shared<Gun_D_50>(),
+	make_shared<Gun_PRB92>()
 };
 
 const std::vector<shared_ptr<BaseGun>> WeaponLists::LightMachineGuns =
 {
 	make_shared<Gun_G8A1>(),
-	make_shared<Gun_6P41>()
+	make_shared<Gun_6P41>(),
+	make_shared<Gun_M249>()
 };
 
 const std::vector<shared_ptr<BaseGun>> WeaponLists::MachinePistols =

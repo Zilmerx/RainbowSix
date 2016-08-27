@@ -64,6 +64,9 @@
     <Filter Include="Header Files\Languages">
       <UniqueIdentifier>{22cf3724-b5af-41d6-81e5-d28b360a04ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Operators\OperatorDefs\BOPE">
+      <UniqueIdentifier>{51a9bf9e-cf45-4079-8484-c5e27ddd2e1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -265,6 +268,9 @@
     </ClInclude>
     <ClInclude Include="Language.h">
       <Filter>Header Files\Languages</Filter>
+    </ClInclude>
+    <ClInclude Include="Capitao.h">
+      <Filter>Header Files\Operators\OperatorDefs\BOPE</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

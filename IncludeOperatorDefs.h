@@ -30,3 +30,5 @@
 
 #include "Blackbeard.h"
 #include "Valkyrie.h"
+
+#include "Capitao.h"

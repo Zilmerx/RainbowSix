@@ -57,7 +57,7 @@ int main()
 
 	// SimulateCombatRandom();
 
-	// SimulateCombatOps<Twitch, Bandit>();
+	SimulateCombatOps<Capitao, Bandit>();
 
 	cout << endl;
 	system("pause");

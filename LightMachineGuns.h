@@ -111,3 +111,59 @@ public:
 	}
 
 };
+
+
+class Gun_M249 : public BaseLightMachineGun
+{
+public:
+	virtual std::string name() const override
+	{
+		return "M249";
+	}
+
+	virtual Damage			damage() const override { return 39; }
+	virtual FireRate		fireRate() const override { return 650; }
+	virtual Mobility		mobility() const override { return 50; }
+	virtual AmmoCapacity	ammoCapacity() const override { return 100; }
+
+	virtual SightsList getSightsList() const override
+	{
+		return SightsList
+		{
+			std::make_shared<Att_Empty>(),
+			std::make_shared<Att_Red_Dot>(),
+			std::make_shared<Att_Holographic>(),
+			std::make_shared<Att_Reflex>(),
+			std::make_shared<Att_ACOG>()
+		};
+	}
+
+	virtual BarrelList getBarrelList() const override
+	{
+		return BarrelList
+		{
+			std::make_shared<Att_Empty>(),
+			std::make_shared<Att_Suppressor>(),
+			std::make_shared<Att_Flash_Hider>()
+		};
+	}
+
+	virtual GripList getGripList() const override
+	{
+		return GripList
+		{
+			std::make_shared<Att_Empty>(),
+			std::make_shared<Att_VerticalGrip>()
+		};
+	}
+
+	virtual UnderBarrelList getUnderBarrelList() const override
+	{
+		return UnderBarrelList
+		{
+			std::make_shared<Att_Empty>(),
+			std::make_shared<Att_Laser>()
+		};
+	}
+
+};

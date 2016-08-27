@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseLanguage.h" />
+    <ClInclude Include="Capitao.h" />
     <ClInclude Include="English.h" />
     <ClInclude Include="French.h" />
     <ClInclude Include="IncludeAllAttachments.h" />
