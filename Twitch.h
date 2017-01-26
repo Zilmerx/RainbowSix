@@ -27,4 +27,13 @@ struct Twitch : public OperatorType, public MediumArmorOp, public MediumSpeedOp
 			std::make_shared<Gun_LFP586>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<BreachingCharge>(),
+			std::make_shared<StunGrenade>(),
+		};
+	}
 };

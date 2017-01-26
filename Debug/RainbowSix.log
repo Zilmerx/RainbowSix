@@ -1,5 +1,5 @@
 ﻿  Main.cpp
-c:\users\jean-philippe\documents\github\rainbowsix\baselanguage.h(39): warning C4002: too many actual parameters for macro 'assert'
+c:\users\jean-philippe\documents\github\rainbowsix\baselanguage.h(32): warning C4002: too many actual parameters for macro 'assert'
 c:\users\jean-philippe\documents\github\rainbowsix\barrels.h(15): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\jean-philippe\documents\github\rainbowsix\barrels.h(29): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\jean-philippe\documents\github\rainbowsix\barrels.h(43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -8,7 +8,11 @@ c:\users\jean-philippe\documents\github\rainbowsix\underbarrels.h(15): warning C
 c:\users\jean-philippe\documents\github\rainbowsix\operatorarmor.h(88): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\jean-philippe\documents\github\rainbowsix\operatorarmor.h(96): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 c:\users\jean-philippe\documents\github\rainbowsix\operatorarmor.h(100): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-c:\users\jean-philippe\documents\github\rainbowsix\random.h(90): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
-c:\users\jean-philippe\documents\github\rainbowsix\random.h(46): warning C4715: 'Random::genOperator': not all control paths return a value
-c:\users\jean-philippe\documents\github\rainbowsix\baselanguage.h(41): warning C4715: 'BaseLanguage::GetText': not all control paths return a value
-  RainbowSix.vcxproj -> C:\Users\Jean-Philippe\Documents\GitHub\RainbowSix\Debug\RainbowSix.exe
+c:\users\jean-philippe\documents\github\rainbowsix\random.h(91): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+c:\users\jean-philippe\documents\github\rainbowsix\main.cpp(28): error C2451: conditional expression of type 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::shared_ptr<BaseGadget>>>>' is illegal
+  c:\users\jean-philippe\documents\github\rainbowsix\main.cpp(28): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  c:\users\jean-philippe\documents\github\rainbowsix\main.cpp(38): note: see reference to function template instantiation 'void HerpDerp<Sledge>(std::shared_ptr<BaseGadget> &,std::vector<Operator,std::allocator<_Ty>> &)' being compiled
+          with
+          [
+              _Ty=Operator
+          ]

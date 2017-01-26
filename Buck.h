@@ -25,4 +25,13 @@ struct Buck : public OperatorType, public MediumArmorOp, public MediumSpeedOp
 			std::make_shared<Gun_Mk1_9mm>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<Grenade>(),
+			std::make_shared<StunGrenade>(),
+		};
+	}
 };

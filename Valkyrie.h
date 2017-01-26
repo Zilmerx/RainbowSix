@@ -25,4 +25,13 @@ struct Valkyrie : public OperatorType, public MediumArmorOp, public MediumSpeedO
 			std::make_shared<Gun_D_50>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<C4Explosive>(),
+			std::make_shared<DeployableShield>(),
+		};
+	}
 };

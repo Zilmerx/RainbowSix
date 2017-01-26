@@ -26,4 +26,13 @@ struct Castle : public OperatorType, public MediumArmorOp, public MediumSpeedOp
 			std::make_shared<Gun_57_USG>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<DeployableShield>(),
+			std::make_shared<BarbedWire>(),
+		};
+	}
 };

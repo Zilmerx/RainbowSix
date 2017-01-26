@@ -27,4 +27,13 @@ struct Doc : public OperatorType, public HeavyArmorOp, public LowSpeedOp
 			std::make_shared<Gun_LFP586>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<DeployableShield>(),
+			std::make_shared<BarbedWire>(),
+		};
+	}
 };

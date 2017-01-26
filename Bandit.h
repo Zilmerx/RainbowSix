@@ -25,4 +25,13 @@ struct Bandit : public OperatorType, public LightArmorOp, public HighSpeedOp
 			std::make_shared<Gun_P12>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<C4Explosive>(),
+			std::make_shared<BarbedWire>(),
+		};
+	}
 };

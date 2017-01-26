@@ -26,4 +26,13 @@ struct Thermite : public OperatorType, public MediumArmorOp, public MediumSpeedO
 			std::make_shared<Gun_57_USG>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<BreachingCharge>(),
+			std::make_shared<StunGrenade>(),
+		};
+	}
 };

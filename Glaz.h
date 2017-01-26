@@ -10,7 +10,6 @@ public:
 		return "Glaz";
 	}
 
-protected:
 	virtual PrimaryGunList GetPrimaryList() const override
 	{
 		return PrimaryGunList
@@ -25,6 +24,15 @@ protected:
 		{
 			std::make_shared<Gun_GSH_18>(),
 			std::make_shared<Gun_PMM>(),
+		};
+	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<BreachingCharge>(),
+			std::make_shared<SmokeGrenade>(),
 		};
 	}
 };

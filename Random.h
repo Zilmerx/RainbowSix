@@ -15,7 +15,7 @@ class Random
 public:
 	static Operator genOperator() noexcept
 	{
-		switch (RandInt(0, 23))
+		switch (RandInt(0, 25))
 		{
 		    case 0: return Operator::GenerateOperator<Sledge>();
 			case 1: return Operator::GenerateOperator<Thatcher>();
@@ -41,6 +41,7 @@ public:
 			case 21: return Operator::GenerateOperator<Frost>();
 			case 22: return Operator::GenerateOperator<Blackbeard>();
 			case 23: return Operator::GenerateOperator<Valkyrie>();
+			case 24: return Operator::GenerateOperator<Capitao>();
 			default: assert(!"An operator tag is missing in this list.");
 		}
 	}

@@ -25,4 +25,13 @@ struct Capitao : public OperatorType, public LightArmorOp, public HighSpeedOp
 			std::make_shared<Gun_PRB92>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<Grenade>(),
+			std::make_shared<StunGrenade>(),
+		};
+	}
 };

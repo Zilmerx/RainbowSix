@@ -67,6 +67,12 @@
     <Filter Include="Header Files\Operators\OperatorDefs\BOPE">
       <UniqueIdentifier>{51a9bf9e-cf45-4079-8484-c5e27ddd2e1d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Gadgets">
+      <UniqueIdentifier>{dedaca3c-4434-4ad0-a3df-33d7d20920c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gadgets\Definitions">
+      <UniqueIdentifier>{11263da1-2179-4801-832f-39c9edb97101}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -271,6 +277,42 @@
     </ClInclude>
     <ClInclude Include="Capitao.h">
       <Filter>Header Files\Operators\OperatorDefs\BOPE</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseGadget.h">
+      <Filter>Header Files\Gadgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>Header Files\Gadgets\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="StunGrenade.h">
+      <Filter>Header Files\Gadgets\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="BreachingCharge.h">
+      <Filter>Header Files\Gadgets\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="C4Explosive.h">
+      <Filter>Header Files\Gadgets\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="BarbedWire.h">
+      <Filter>Header Files\Gadgets\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="DeployableShield.h">
+      <Filter>Header Files\Gadgets\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Claymore.h">
+      <Filter>Header Files\Gadgets\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="ImpactGrenade.h">
+      <Filter>Header Files\Gadgets\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="IncludeAllGadgets.h">
+      <Filter>Header Files\Gadgets</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeGrenade.h">
+      <Filter>Header Files\Gadgets\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorList.h">
+      <Filter>Header Files\Operators</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

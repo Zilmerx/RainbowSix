@@ -26,4 +26,13 @@ struct Kapkan : public OperatorType, public HeavyArmorOp, public LowSpeedOp
 			std::make_shared<Gun_PMM>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<BarbedWire>(),
+			std::make_shared<C4Explosive>(),
+		};
+	}
 };

@@ -3,6 +3,7 @@
 #include <string>
 
 #include "IncludeAllWeaponDefs.h"
+#include "IncludeAllGadgets.h"
 #include "OperatorArmor.h"
 #include "OperatorSpeed.h"
 
@@ -34,4 +35,7 @@ protected:
 	virtual PrimaryGunList GetPrimaryList() const = 0;
 
 	virtual SecondaryGunList GetSecondaryList() const = 0;
+
+public:
+	virtual GadgetList GetGadgetList() const = 0;
 };

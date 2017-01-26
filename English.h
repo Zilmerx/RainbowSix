@@ -38,6 +38,5 @@ public:
 		std::make_pair<std::string, std::string>("KEY_UNDERBARREL", "UnderB    "),
 	})
 	{
-
 	}
 };

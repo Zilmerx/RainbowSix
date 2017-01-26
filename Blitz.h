@@ -24,4 +24,13 @@ struct Blitz : public OperatorType, public HeavyArmorOp, public LowSpeedOp
 			std::make_shared<Gun_P12>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<BreachingCharge>(),
+			std::make_shared<SmokeGrenade>(),
+		};
+	}
 };

@@ -5,9 +5,12 @@
 
 class PrimaryWeapon;
 class SecondaryWeapon;
+class BaseGadget;
 
 typedef std::vector<std::shared_ptr<PrimaryWeapon>>		PrimaryGunList;
 typedef std::vector<std::shared_ptr<SecondaryWeapon>>	SecondaryGunList;
+
+typedef std::vector<std::shared_ptr<BaseGadget>>	    GadgetList;
 
 
 class BaseSights;

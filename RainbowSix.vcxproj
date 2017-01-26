@@ -145,10 +145,19 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="IncludeAllGadgets.h" />
+    <ClInclude Include="BarbedWire.h" />
+    <ClInclude Include="BaseGadget.h" />
     <ClInclude Include="BaseLanguage.h" />
+    <ClInclude Include="BreachingCharge.h" />
+    <ClInclude Include="C4Explosive.h" />
     <ClInclude Include="Capitao.h" />
+    <ClInclude Include="Claymore.h" />
+    <ClInclude Include="DeployableShield.h" />
     <ClInclude Include="English.h" />
     <ClInclude Include="French.h" />
+    <ClInclude Include="Grenade.h" />
+    <ClInclude Include="ImpactGrenade.h" />
     <ClInclude Include="IncludeAllAttachments.h" />
     <ClInclude Include="IncludeAllWeaponDefs.h" />
     <ClInclude Include="Ammo.h" />
@@ -187,6 +196,7 @@
     <ClInclude Include="Operator.h" />
     <ClInclude Include="OperatorArmor.h" />
     <ClInclude Include="IncludeOperatorDefs.h" />
+    <ClInclude Include="OperatorList.h" />
     <ClInclude Include="OperatorSpeed.h" />
     <ClInclude Include="OperatorType.h" />
     <ClInclude Include="Pulse.h" />
@@ -199,7 +209,9 @@
     <ClInclude Include="SimulerCombat.h" />
     <ClInclude Include="Sledge.h" />
     <ClInclude Include="Smoke.h" />
+    <ClInclude Include="SmokeGrenade.h" />
     <ClInclude Include="Spread.h" />
+    <ClInclude Include="StunGrenade.h" />
     <ClInclude Include="SubmachineGuns.h" />
     <ClInclude Include="Tachanka.h" />
     <ClInclude Include="Thatcher.h" />

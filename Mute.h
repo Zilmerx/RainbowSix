@@ -25,4 +25,13 @@ struct Mute : public OperatorType, public MediumArmorOp, public MediumSpeedOp
 			std::make_shared<Gun_P226_Mk_25>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<DeployableShield>(),
+			std::make_shared<C4Explosive>(),
+		};
+	}
 };

@@ -29,11 +29,9 @@ public:
 
 	const std::string m_Name;
 
-	//const std::shared_ptr<PrimaryWeapon> m_PrimaryWeapon;
-	//const std::shared_ptr<SecondaryWeapon> m_SecondaryWeapon;
 
-	// const std::shared_ptr<Gadget> m_Gadget1;
-	// const std::shared_ptr<Gadget> m_Gadget2;
+
+	const std::shared_ptr<BaseGadget> m_Gadget;
 	
 	const WeaponContainer m_PrimaryWeapon;
 	const WeaponContainer m_SecondaryWeapon;
@@ -41,12 +39,19 @@ public:
 public:
 
 	template<class OpType>
+	Operator(OpType opType) :
+		Operator(opType, opType.GetList<PrimaryWeapon>()[0], opType.GetList<SecondaryWeapon>()[0])
+	{
+	}
+
+	template<class OpType>
 	Operator(OpType opType, std::shared_ptr<PrimaryWeapon> primary, std::shared_ptr<SecondaryWeapon> secondary) :
 		m_Name{ opType.GetName() },
 		m_Armor{ ArmorInfo{opType} },
 		m_Speed{ SpeedInfo{opType} },
 		m_PrimaryWeapon{ primary },
-		m_SecondaryWeapon{ secondary }
+		m_SecondaryWeapon{ secondary },
+		m_Gadget{ opType.GetGadgetList()[0] }
 	{
 		m_CurrentWeapon = &m_PrimaryWeapon;
 	}

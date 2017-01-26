@@ -26,4 +26,13 @@ struct Sledge : public OperatorType, public MediumArmorOp, public MediumSpeedOp
 			std::make_shared<Gun_SMG_11>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<Grenade>(),
+			std::make_shared<StunGrenade>(),
+		};
+	}
 };

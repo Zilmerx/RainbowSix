@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include <cassert>
+#include <algorithm>
 
 class BaseLanguage
 {
@@ -19,20 +20,12 @@ public:
 
 	std::string GetText(std::string&& key)
 	{
-		std::string* found = nullptr;
+		auto found = std::find_if(m_Dico.begin(), m_Dico.end(), 
+			[&key](const std::pair<std::string, std::string>& arg) {return arg.first == key; });
 
-		for (auto& val : m_Dico)
+		if (found._Ptr)
 		{
-			if (val.first == key)
-			{
-				found = &val.second;
-				break;
-			}
-		}
-
-		if (found)
-		{
-			return *found;
+			return found->second;
 		}
 		else
 		{

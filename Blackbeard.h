@@ -25,4 +25,13 @@ struct Blackbeard : public OperatorType, public MediumArmorOp, public MediumSpee
 			std::make_shared<Gun_D_50>(),
 		};
 	}
+
+	virtual GadgetList GetGadgetList() const override
+	{
+		return GadgetList
+		{
+			std::make_shared<BreachingCharge>(),
+			std::make_shared<StunGrenade>(),
+		};
+	}
 };
